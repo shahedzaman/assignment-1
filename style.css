@@ -1,0 +1,272 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+
+ul {
+    list-style-type: none;
+   margin-right: 50px;
+  }
+
+  ul li{
+      display: inline;
+      float: right;
+      
+  }
+
+  nav{
+      height: 10vh;
+  }
+  li a {
+    display: block;
+    color: #3C3C3C;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  
+  }
+
+
+.intro{
+    height: 162vh;
+     background: #FFFFFF;
+background: -webkit-linear-gradient(top, #FFFFFF, #DDFCF7);
+background: -moz-linear-gradient(top, #FFFFFF, #DDFCF7);
+background: linear-gradient(to bottom, #FFFFFF, #DDFCF7);
+}
+.intro-div{
+    height: 80vh;
+}
+.half-width{
+    width: 40%;
+    height: 80vh;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+  
+}
+.intro-text{
+    height: 80vh;
+   
+}
+.intro-img img{
+    padding-left: 50px;
+    height: 80vh;
+    padding-top: -50px;
+}
+
+.about-img img{
+    padding-left: 50px;
+    height: 80vh;
+  padding-top: 0;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    color: white;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+    margin-top: 100px;
+}
+
+.intro h1{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+
+color: #363958;
+line-height: 0.5;
+}
+
+.intro h2{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 0;
+
+
+
+color: #FF8367;
+
+}
+
+.about-div h3{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 25px;
+/* identical to box height */
+
+color: #363958;
+}
+p{
+    margin-bottom: 30px;
+}
+
+.about-text p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #3E3E3E;
+
+}
+
+.working-project{
+    height: 90vh;
+    text-align: center;
+    padding: 60px;
+    background: #E5E5E5;
+    
+}
+
+.working-project h1{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+}
+#project-text{
+    color: #F46060;
+}
+.project-box-div{
+    
+    height: 70vh;
+   
+}
+.project{
+    width: 28%;
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 2.9%;
+    padding-left: 1%;
+    background: #FFFFFF;
+box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+border-radius: 19.7436px;
+    
+}
+
+.project h4{
+    font-size: 24px;
+line-height: 28px;
+
+color: #363958;
+}
+.project p{
+    font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+color: #6C6C6C;
+}
+
+.project img{
+    width: 90%;
+    padding-top: 20px;
+}
+
+.experience{
+    height: 50vh;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.experience h1{
+    text-align: center;
+    color: #6C6C6C;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0.3;
+    margin-top: -20px;
+}
+.services-box-div{
+    height: 40vh;
+   
+}
+.service{
+    padding-top: 20px;
+    width: 28%;
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 2.5%;
+    padding-left: 1%;
+    height: 30vh;
+    box-shadow: 1px 1px 16px 8px rgba(206,190,199,0.72);
+    border-radius: 5px;
+    text-align: center;
+    color: #30475e;
+}
+
+footer{
+    height: 55vh;
+   background: #F4FFED;
+   background: -webkit-linear-gradient(bottom, #F4FFED, #FFFFFF);
+    background: -moz-linear-gradient(bottom, #F4FFED, #FFFFFF);
+    background: linear-gradient(to top, #F4FFED, #FFFFFF);
+
+}
+.work-inquiry{
+    margin-left: 410px;
+    width: 453px;
+    height: 112.5px;
+    background-image: url("images/inquiry.png");
+    background-size: 453px 112.5px;
+}
+
+.work-inquiry p{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 32px;
+color: #FFFFFF;
+display: inline-block;
+padding: 10px 120px 10px 40px;
+}
+.footer-text{
+    text-align: center;
+    
+}
+.footer-p{
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+}
+.footer-h3{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 0.8;
+color: #363958;
+}
+.icon{
+    padding-left: 27px;
+width: 40px;
+height: 40px;
+}
+.left-icon{
+    padding-left: 540px;
+}
